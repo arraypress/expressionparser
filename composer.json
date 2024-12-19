@@ -1,10 +1,10 @@
 {
-  "name": "arraypress/expressionparser",
+  "name": "arraypress/expression-parser",
   "version": "1.0.0",
   "description": "A PHP library for evaluating mathematical expressions with arbitrary precision arithmetic using BC Math, featuring WordPress integration for error handling and a clean API.",
   "type": "library",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://github.com/arraypress/expressionparser/",
+  "homepage": "https://github.com/arraypress/expression-parser/",
   "authors": [
     {
       "name": "David Sherlock",
@@ -22,12 +22,13 @@
   },
   "config": {
     "optimize-autoloader": true,
-    "sort-packages": true
+    "sort-packages": true,
+    "preferred-install": "dist"
   },
   "minimum-stability": "stable",
   "support": {
-    "issues": "https://github.com/arraypress/expressionparser/issues",
-    "source": "https://github.com/arraypress/expressionparser"
+    "issues": "https://github.com/arraypress/expression-parser/issues",
+    "source": "https://github.com/arraypress/expression-parser"
   },
   "keywords": [
     "mathematics",
